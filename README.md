@@ -1,1 +1,3 @@
-# music_mixer
+# Music Mixer
+
+### Music Mixer web application using JavaScript, CSS and HTML.
