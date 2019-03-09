@@ -6,10 +6,82 @@
 	display: none;
 }
 
+.container
+{
+	width: 100%;
+	background: #9b3a35; /* Old browsers */
+	background: -moz-linear-gradient(left, #9b3a35 0%, #24424d 100%); 
+	background: -webkit-linear-gradient(left, #9b3a35 0%,#24424d 100%); 
+	background: linear-gradient(to right, #9b3a35 0%,#24424d 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b3a35', endColorstr='#24424d',GradientType=1 );
+	padding-bottom: 40px;
+}
 
+.topBar
+{
+	height: 12px;
+	width: 100%;
+	background-color: #666666;	
+}
 
+.mainTitle
+{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 38px;
+	font-size: 50px;
+	font-family: Source Sans Variable , "Helvetica";
+	font-weight: lighter;
+	color: #c7c7c7;
+	letter-spacing: 10px;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #c7c7c7;
+	margin-bottom: 40px;
+	opacity: 0.7;
 
+}
 
+.dropCon
+{
+	height: 420px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	background-color: #948486;
+}
+
+.iconsCon
+{
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	height: 160px;
+	background-color: #948486;
+	margin: 0 auto;
+}
+
+.beats, .effects, .melodies, .voices
+{
+	width: 25%;
+	height: 80%;
+	border-right: solid 1px #c7c7c7;
+	margin-top: 17px;
+}
+
+.voices
+{
+	border-right: none;
+}
+
+.beats h2, .effects h2, .melodies h2, .voices h2
+{
+	color: #c7c7c7;
+	font-family: Source Sans Variable , "Helvetica";
+	font-weight: lighter;
+	text-align: center;
+
+}
 
 
 
