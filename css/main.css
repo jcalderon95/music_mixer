@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+@charset "UTF-8";
+
+.hidden
+{
+	display: none;
+}
+=======
 @charset "utf-8";
 /*css document*/
 
@@ -97,3 +105,4 @@
 
 
 
+>>>>>>> 4b268b316a6f577e0b8fc456696d4c2334ec6cc5
