@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-@charset "UTF-8";
-
-.hidden
-{
-	display: none;
-}
-=======
 @charset "utf-8";
 /*css document*/
 
@@ -50,7 +42,7 @@
 
 }
 
-.dropCon
+.drop-zone
 {
 	height: 420px;
 	width: 80%;
@@ -90,19 +82,15 @@
 	text-align: center;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 4b268b316a6f577e0b8fc456696d4c2334ec6cc5
+.instruments-board {
+	display: table;
+	margin: 0 auto;
+	width: 50%;
+}
+.instruments-audio-board {
+	display: none;
+}
+.instrument-image {
+	width: 16%;
+	margin: 2%;
+}
