@@ -69,28 +69,10 @@
 	margin-top: 17px;
 }
 
-.voices
-{
-	border-right: none;
-}
 
-.beats h2, .effects h2, .melodies h2, .voices h2
-{
-	color: #c7c7c7;
-	font-family: Source Sans Variable , "Helvetica";
-	font-weight: lighter;
-	text-align: center;
-
-}
-.instruments-board {
-	display: table;
-	margin: 0 auto;
-	width: 50%;
-}
-.instruments-audio-board {
-	display: none;
-}
 .instrument-image {
-	width: 16%;
-	margin: 2%;
+	width: 150px;
+	height: 150px;
+	margin-left: 3%;
+	margin-right: 3%;
 }
