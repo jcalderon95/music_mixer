@@ -27,13 +27,23 @@
 				console.log('dropped on me');
 
 				let data = e.dataTransfer.getData("text/plain");
-				console.log(data);
+				// console.log(data);
 
 				let secondClass = this.className.split(" ")[1];
-				console.log(secondClass);
+				// console.log(secondClass);
+
+				let audio = document.createElement('audio');
+
+				audio.src = `audio/${secondClass}.wav`;
+				console.log(audio);
+				
 
 				if (secondClass == data) {
 					e.target.appendChild(document.querySelector(`#${data}`));
+					document.body.appendChild(audio);
+					audio.play();
+					audio.loop = true;
+					
 				}
 				else
 				{

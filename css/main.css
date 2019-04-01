@@ -29,10 +29,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#603813', end
 .container
 {
 	margin: 0 auto;
-	width: 1372px;
+	/*width: 1372px;*/
 	height: 773px;
 	background: url(../images/background.jpg) no-repeat;
+	background-size: cover;
 	padding-top: 1px;
+}
+
+.title
+{
+	width: 230px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 85px;
 }
 
 .dropZoneCon
@@ -40,7 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#603813', end
 	width: 1120px;
 	height: 250px;
 	margin: 0 auto;
-	margin-top: 210px;
+	/*margin-top: 210px;*/
 	margin-bottom: 57px;
 	display: flex;
 	flex-direction: row;
@@ -72,7 +82,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#603813', end
 
 .singer-man
 {
-	background: url(../images/singer.png);
+	background: url(../images/singer.png) no-repeat;
 	width: 144px;
 	height: 195px;
 }
@@ -92,7 +102,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#603813', end
 .dragArea
 {
 	width: 1120px;
-	height: 250px;
+	height: 240px;
 	background-color: rgba(97, 94, 91, 0.3);
 	margin: 0 auto;
 	display: flex;
