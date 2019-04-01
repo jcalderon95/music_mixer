@@ -6,73 +6,109 @@
 	display: none;
 }
 
+body
+{
+	background: #603813; 
+/*background: -moz-linear-gradient(top, #603813 0%, #8a6037 50%, #603813 100%); 
+background: -webkit-linear-gradient(top, #603813 0%,#8a6037 50%,#603813 100%); 
+background: linear-gradient(to bottom, #603813 0%,#8a6037 50%,#603813 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#603813', endColorstr='#603813',GradientType=0 );*/
+}
+
+
 .container
 {
-	width: 100%;
-	background: #9b3a35; /* Old browsers */
-	background: -moz-linear-gradient(left, #9b3a35 0%, #24424d 100%); 
-	background: -webkit-linear-gradient(left, #9b3a35 0%,#24424d 100%); 
-	background: linear-gradient(to right, #9b3a35 0%,#24424d 100%); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b3a35', endColorstr='#24424d',GradientType=1 );
-	padding-bottom: 40px;
-}
-
-.topBar
-{
-	height: 12px;
-	width: 100%;
-	background-color: #666666;	
-}
-
-.mainTitle
-{
-	width: 500px;
 	margin: 0 auto;
-	margin-top: 38px;
-	font-size: 50px;
-	font-family: Source Sans Variable , "Helvetica";
-	font-weight: lighter;
-	color: #c7c7c7;
-	letter-spacing: 10px;
-	text-align: center;
-	padding-bottom: 20px;
-	border-bottom: solid 1px #c7c7c7;
-	margin-bottom: 40px;
-	opacity: 0.7;
-
+	width: 1372px;
+	height: 773px;
+	background: url(../images/background.jpg) no-repeat;
+	padding-top: 1px;
 }
 
-.drop-zone
+.dropZoneCon
 {
-	height: 420px;
-	width: 80%;
+	width: 1120px;
+	height: 250px;
 	margin: 0 auto;
-	margin-bottom: 30px;
-	background-color: #948486;
-}
-
-.iconsCon
-{
+	margin-top: 210px;
+	margin-bottom: 57px;
 	display: flex;
 	flex-direction: row;
-	width: 60%;
-	height: 160px;
-	background-color: #948486;
-	margin: 0 auto;
+	justify-content: space-around;
 }
 
-.beats, .effects, .melodies, .voices
+
+.guitarist, .singerLady, .pianist, .singer, .saxophonist
 {
-	width: 25%;
-	height: 80%;
-	border-right: solid 1px #c7c7c7;
-	margin-top: 17px;
+	height: 195px;
+}
+
+.singerLady, .singer
+{
+	margin-top: 50px;
+}
+
+.dragArea
+{
+	width: 1120px;
+	height: 250px;
+	background-color: rgba(97, 94, 91, 0.3);
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 1px;
+	border: solid 1.5px #ccb49c;
+
+}
+
+.guitar
+{
+	margin-top: 25px;
+	height: 195px;
+	width: 95px;
+}
+
+.singer-lady
+{
+	margin-top: 25px;
+	height: 195px;
+	width: 79px;
+}
+
+.piano
+{
+	margin-top: 25px;
+	height: 195px;
+	width: 340px;
+}
+
+.singer-man
+{
+	margin-top: 25px;
+	width: 144px;
+	height: 195px;
+}
+
+.saxo
+{
+	margin-top: 25px;
+	width: 84px;
+	height: 195px;
 }
 
 
-.instrument-image {
-	width: 150px;
-	height: 150px;
-	margin-left: 3%;
-	margin-right: 3%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
