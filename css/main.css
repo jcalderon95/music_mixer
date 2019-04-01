@@ -6,6 +6,16 @@
 	display: none;
 }
 
+/*switch box model*/
+html {
+  box-sizing: border-box; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
 body
 {
 	background: #603813; 
@@ -38,6 +48,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#603813', end
 }
 
 
+
 .guitar
 {
 	background: url(../images/guitar.png);
@@ -55,7 +66,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#603813', end
 .pianist
 {
 	background: url(../images/piano.png) no-repeat;
-	height: 195px;
+	height: 185px;
 	width: 340px;
 }
 
@@ -87,44 +98,52 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#603813', end
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	padding-top: 1px;
+	padding-top: 25px;
 	border: solid 1.5px #ccb49c;
 
 }
 
-#guitar
+#guitar 
 {
-	margin-top: 25px;
+	
 	height: 195px;
 	width: 95px;
 }
 
-#singer-lady
+#singer-lady 
 {
-	margin-top: 25px;
+	
 	height: 195px;
 	width: 79px;
 }
 
-#pianist
+#pianist 
 {
-	margin-top: 25px;
+	
 	height: 195px;
 	width: 340px;
 }
 
-#singer-man
+#singer-man 
 {
-	margin-top: 25px;
+	
 	width: 144px;
 	height: 195px;
 }
 
-#saxophonist
+#saxophonist 
 {
-	margin-top: 25px;
+	
 	width: 84px;
 	height: 195px;
+}
+
+
+.dropZone img
+{
+	width: 100% !important;
+	height: 100% !important;
+	
 }
 
 
