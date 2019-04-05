@@ -18,11 +18,7 @@ html {
 
 body
 {
-	background: #603813; 
-/*background: -moz-linear-gradient(top, #603813 0%, #8a6037 50%, #603813 100%); 
-background: -webkit-linear-gradient(top, #603813 0%,#8a6037 50%,#603813 100%); 
-background: linear-gradient(to bottom, #603813 0%,#8a6037 50%,#603813 100%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#603813', endColorstr='#603813',GradientType=0 );*/
+ 	background: #603813;  
 }
 
 
