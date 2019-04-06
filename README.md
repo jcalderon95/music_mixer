@@ -1,10 +1,10 @@
 # Interactive Music Mixer
 
-##Team members: 
+## Team members: 
 1. Jimmy Calderon
 2. Tien Le
 
-## Interactive web application built using HTML, CSS, JavaScript, SVG & audio.
+### Interactive web application built using HTML, CSS, JavaScript, SVG & audio.
 
 
 ## Instructions:
